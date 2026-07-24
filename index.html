@@ -30,49 +30,6 @@
     justify-content: space-between;
   }
   .header h1 { font-size: 20px; font-weight: 600; }
-  .header-actions {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-  }
-  .header-actions button {
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.3);
-    color: #fff;
-    padding: 6px 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 13px;
-    transition: background 0.2s;
-  }
-  .header-actions button:hover { background: rgba(255,255,255,0.25); }
-  .header-actions .search-box {
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 4px;
-    padding: 5px 12px;
-    color: #fff;
-    font-size: 13px;
-    outline: none;
-    width: 200px;
-  }
-  .header-actions .search-box::placeholder { color: rgba(255,255,255,0.6); }
-  .header .user-info {
-    font-size: 13px;
-    opacity: 0.9;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .header .user-info .avatar {
-    width: 28px; height: 28px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.25);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-  }
 
   /* Filter Section */
   .filters {
@@ -285,15 +242,7 @@
   <!-- Header -->
   <div class="header">
     <h1>商旅报销单任务追踪</h1>
-    <div class="header-actions">
-      <input class="search-box" placeholder="搜索单号/报销人..." type="text">
-      <button>高级筛选</button>
-      <button>导出 Excel</button>
-      <div class="user-info">
-        <div class="avatar">张</div>
-        <span>张经理</span>
-      </div>
-    </div>
+
   </div>
 
   <!-- Filters -->
@@ -407,7 +356,6 @@
     <div class="filter-actions">
       <button class="btn-primary">查询</button>
       <button class="btn-default">重置</button>
-      <button class="btn-default">展开更多</button>
     </div>
   </div>
 
